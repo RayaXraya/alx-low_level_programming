@@ -2,14 +2,12 @@
 
 /**
  * add - Adds 2 nums
- * @n: is the sum
+ * @a: Is the 1st
+ * @b: Is the 2nd
  * Return: The addition result
  */
 
 int add(int a, int b)
 {
-	int n;
-
-	n = a + b;
-	return (n);
+	return (a + b);
 }
