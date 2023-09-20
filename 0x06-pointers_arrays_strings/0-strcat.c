@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	v = b + a;
 	k = 0;
 
-	for (n = 0; dest[n] <= v; n++)
+	for (n = 0; n <= v + 1; n++)
 	{
 		if (n >= a)
 		{
