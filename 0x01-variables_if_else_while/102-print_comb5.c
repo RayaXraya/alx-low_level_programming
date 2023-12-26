@@ -14,14 +14,14 @@ int main(void)
 	{
 		for (k = i; k <= 99; k++)
 		{
-			if (i != k)
+			if (k != i)
 			{
 				putchar((i / 10) + 48);
 				putchar((i % 10) + 48);
 				putchar(' ');
 				putchar((k / 10) + 48);
 				putchar((k % 10) + 48);
-				if (!(i == 98 || k == 99))
+				if (i != 98 || k != 99)
 				{
 					putchar(',');
 					putchar(' ');
