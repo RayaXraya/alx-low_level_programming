@@ -1,6 +1,8 @@
 #ifndef DOGGY
 #define DOGGY
 
+#define NULL ((void*)0)
+
 /**
  * struct dog - stores info about dogs
  * @name: dog name

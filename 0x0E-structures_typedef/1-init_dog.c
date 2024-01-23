@@ -1,5 +1,6 @@
 #include "dog.h"
 
+
 /**
  * init_dog - intilizes the dog
  * @d: the variable
@@ -11,7 +12,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	while (d)
+	if (d != NULL)
 	{
 		d->name = name;
 		d->age = age;
